@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #00f7ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    box-shadow: 0 0 20px #00f7ff;
+}
+
+#time {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #00f7ff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00c2cc;
+}
+
+#laps {
+    margin-top: 15px;
+    max-height: 120px;
+    overflow-y: auto;
+}
